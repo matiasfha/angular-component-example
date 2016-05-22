@@ -7,7 +7,7 @@ The idea is create a way to share components between projects, the goal is:
 1. A component should be stateless
 2. A component should have their own styling
 
-To achieve this, the repository use ES6 syntax through Babel and webpack and also [CSS Modules](https://github.com/css-modules/css-modules) to isolate the css rules for each component.
+To achieve this, the repository use ES6 syntax through [Babel](http://babeljs.io) and [webpack](https://github.com/css-modules/css-modules) and also [CSS Modules](https://github.com/css-modules/css-modules) to isolate the css rules for each component.
 
 
 #### How to run the example
