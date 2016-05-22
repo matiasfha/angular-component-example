@@ -1,0 +1,36 @@
+{
+  "name": "angular-component-example",
+  "version": "1.0.0",
+  "description": "An example of use of Angular 1.5, webpack, ES6 and CSS modules to create an angular standalone component",
+  "main": "dist/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -p"
+  },
+  "author": "Matias Hernandez <matiasfh@gmail.com> (http://matiashernandez.me)",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "1.5.5",
+    "angular-ui-router": "0.3.0"
+  },
+  "devDependencies": {
+    "autoprefixer-loader": "3.2.0",
+    "babel-core": "6.9.0",
+    "babel-eslint": "6.0.4",
+    "babel-loader": "6.2.4",
+    "babel-polyfill": "6.9.0",
+    "babel-preset-es2015": "6.9.0",
+    "babel-preset-stage-2": "6.5.0",
+    "css-loader": "0.23.1",
+    "eslint": "2.10.2",
+    "eslint-plugin-angular": "1.0.1",
+    "extract-text-webpack-plugin": "1.0.1",
+    "html-loader": "0.4.3",
+    "html-webpack-plugin": "2.17.0",
+    "ng-annotate-loader": "0.1.0",
+    "raw-loader": "0.5.1",
+    "style-loader": "0.13.1",
+    "webpack": "1.13.1",
+    "webpack-dev-server": "1.14.1"
+  }
+}

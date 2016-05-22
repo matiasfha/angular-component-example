@@ -1,0 +1,9 @@
+<h3 class="{{::vm.styles.title}}">This is the list component</h3>
+
+<ul class="{{::vm.styles.ul}}">
+	<li ng-repeat="item in vm.items">
+		<a ng-href="::item.url">
+			<span ng-bind="::item.name"></span>
+		</a>
+	</li>
+</ul>
